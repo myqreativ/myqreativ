@@ -1,0 +1,35 @@
+
+.navbar-default,.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: none;
+	background-color: #fff;
+	height: 10rem;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	text-decoration: underline;
+}
+
+.navbar-nav{
+	margin-top: 1.5rem;
+}
+@media (max-width: 768px)
+{
+	.navbar-collapse{
+		margin-top: 2.5rem;
+	}
+}
+.navbar-default .navbar-nav>li>a{
+	color: #000;
+	margin-left: 1.25rem;
+	margin-right: 2.9375rem;
+}
+
+@media (min-width: 1200px)
+{
+	.carousel img {
+		min-width: 100%;
+		max-height: auto;
+	}
+}
+.carousel img{
+	min-width: 100%;
+}
